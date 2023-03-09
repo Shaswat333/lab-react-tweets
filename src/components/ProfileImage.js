@@ -1,1 +1,5 @@
-<img src="https://i.imgur.com/b0EdHVV.jpg" className="profile" alt="profile"/>
+function ProfileImage(props) {
+
+    return <img src={props.image}className="profile" alt="profile"/>;
+}
+export default ProfileImage;
